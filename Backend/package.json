@@ -1,1 +1,16 @@
-{"name":"tourist-restaurant-backend","version":"1.0.0","description":"Simple backend to collect landing signups","main":"server.js","scripts":{"start":"node server.js"},"dependencies":{"body-parser":"^2.2.0","cors":"^2.8.5","dotenv":"^16.0.3","express":"^4.21.2","mongodb":"^5.9.2"}}
+{
+    "name": "tourist-restaurant-backend",
+    "version": "1.0.0",
+    "description": "Simple backend to collect landing signups",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^2.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.21.2",
+        "mongodb": "^5.9.2"
+    }
+}
