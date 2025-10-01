@@ -54,6 +54,7 @@ class _LandingPageState extends State<LandingPage> {
       _loading = false;
     });
 
+    /* Comment out the real HTTP call for now
     try {
       final uri = Uri.parse('$backendUrl/api/signup');
       final resp = await http.post(
@@ -79,7 +80,7 @@ class _LandingPageState extends State<LandingPage> {
     } finally {
       setState(() => _loading = false);
     }
-    
+    */
   }
 
   @override
